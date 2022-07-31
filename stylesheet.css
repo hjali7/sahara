@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(images/background.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:3% 8%;
+    text-align: center;
+}
+nav img{
+    width: 80px;
+    cursor: pointer;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link .fa{
+    color:#fff;
+    background:transparent;
+    padding:5px;
+    
+}
+.nav-link .fa:hover{
+    background: #ccc;
+    border-radius: 15px;
+}
+.nav-link ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right:60px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 17px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+.text-box{
+    text-align: left;
+    flex-basis: 42%;
+    left:8%;
+    position: absolute;
+}
+.text-box h1{
+    font-size: 5em;
+    font-weight: 800;
+    color:#fff;
+}
+.text-box p{
+    color:#fff;
+    margin-bottom: 30px;
+}
+.text-box a{
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+}
+.btn{
+    outline: none;
+    border:1px solid #fff;
+    background: #fff;
+    padding:6px 50px;
+    border-radius: 15px;
+}
